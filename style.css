@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 40px;
+    font-style: italic;
+    color: black;
+}
+body{
+    background-color: gray;
+    color: black;
+}
+#quote{
+    background:aliceblue;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 400px;
+    color: black;
+    border: 1px solid black;
+}
+#quote_btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    align-items: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+}
+#author{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    text-shadow: 1px ;
+    height: 60px;
+    align-items:center;
+}
+#quote:hover{
+    background-color: pink;
+    color: antiquewhite;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#author{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
